@@ -11,36 +11,45 @@
   <body>
     <main>
       <div class="form-layout">
-        <h1>Login to your account</h1>
+        <h1>Login to your account.</h1>
         <form action="" get="">
           <div class="email-container">
-            <label for="email">
-              <span>Email</span>
-              <input type="email" name="" id="email" />
-            </label>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" />
             <ion-icon name="mail-open"></ion-icon>
           </div>
 
           <div class="password-container">
-            <label for="password">
-              <span>password</span>
-              <input type="password" name="" id="password" />
-            </label>
-            <ion-icon name="mail-open"></ion-icon>
+            <label for="password">Password</label>
+            <input type="password" name="" id="password" />
+            <ion-icon name="eye"></ion-icon>
           </div>
 
-          <a href="#">Forgot your password?</a>
+          <a class="no-password" href="#">Forgot your password?</a>
           <button type="submit">Login</button>
 
           <div class="login-links">
-            <a href="#"><img src="" alt="" /></a>
-            <a href="#"><img src="" alt="" /></a>
-            <a href="#"><img src="" alt="" /></a>
+            <p class="login-links_head">Or login with</p>
+            <div class="links_images">
+              <a href="#"
+                ><img
+                  src="img/2993685_brand_brands_google_logo_logos_icon.png"
+                  alt="google logo"
+              /></a>
+              <a href="#"
+                ><img
+                  src="img/5296499_fb_facebook_facebook logo_icon.png"
+                  alt="facebook logo"
+              /></a>
+              <a href="#"
+                ><img src="img/104490_apple_icon.png" alt="apple logo"
+              /></a>
+            </div>
           </div>
 
           <div class="account">
             <span>Don't have an account?</span>
-            <a href="#">Register</a>
+            <a href="#">Create Account</a>
           </div>
         </form>
       </div>
