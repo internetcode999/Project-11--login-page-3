@@ -1,3 +1,8 @@
-git diff main...origin/main (shows diff)
-git log main...origin/main (shows commits in origin)
-git log origin/main (view changes in remote branch)
+1. git branch -m <name> (change branch name)
+2. git branch (list branches)
+3. git branch -a (list all branches both local and remote)
+4. git branch -r (list only remote branches)
+
+5. git diff main...origin/main (shows diff)
+6. git log main...origin/main (shows commits in origin)
+7. git log origin/main (view changes in remote branch)
